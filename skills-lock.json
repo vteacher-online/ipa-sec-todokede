@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "ipa-sec-start": {
+      "source": "vteacher-online/ipa-sec-todokede",
+      "sourceType": "github",
+      "computedHash": "a31eae2035cdf9fe59142c082cea6d70da451cbe77809f7303122e4246f938d6"
+    },
     "start": {
       "source": "vteacher-online/ipa-sec-todokede",
       "sourceType": "github",
