@@ -1,5 +1,5 @@
 ---
-name: draft
+name: ipa-sec-draft
 description: IPA届出フォームに転記できる本文下書きを生成するスキル。フォームの見出し順に並べ、発見経緯・判断理由・脅威・証跡の有無までまとめて draft.md に保存する。
 ---
 

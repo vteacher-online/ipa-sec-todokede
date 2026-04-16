@@ -1,5 +1,5 @@
 ---
-name: checklist
+name: ipa-sec-checklist
 description: IPA届出前の最終確認を行うスキル。URL・確認日・再現手順・CWE・脅威・証跡・他所への届出有無を確認し、足りない項目だけ短く指摘する。
 ---
 

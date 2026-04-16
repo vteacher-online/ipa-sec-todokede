@@ -1,5 +1,5 @@
 ---
-name: ipa-sec-start
+name: start
 description: IPA のウェブアプリケーション脆弱性届出を始めるためのスキル。対象区分を確認し、URL・確認日・現象・証跡などの基本情報を聞き取り、.ipa-sec-todokede/report.json を初期化する。
 ---
 

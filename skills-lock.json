@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "start": {
+      "source": "vteacher-online/ipa-sec-todokede",
+      "sourceType": "github",
+      "computedHash": "773d8c258d06df3b876c1bce6732892fb37544e84d803e917fdbcceff0109bea"
+    }
+  }
+}

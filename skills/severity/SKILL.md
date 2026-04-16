@@ -1,5 +1,5 @@
 ---
-name: severity
+name: ipa-sec-severity
 description: IPA届出フォームの「深刻度と影響範囲」を作るスキル。CVSS v3 のベクトル、基本値、算出理由、利用者数・重要インフラ・攻撃コード・攻撃発生有無を整理する。
 ---
 
