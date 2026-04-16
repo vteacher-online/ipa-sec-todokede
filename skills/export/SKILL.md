@@ -1,5 +1,5 @@
 ---
-name: ipa-sec-todokede-export
+name: export
 description: ipa-sec-todokede で整理した内容を .ipa-sec-todokede/ 配下に保存するスキル。report.json・draft.md・severity.md・checklist.md の存在を確認し、不足しているものを作ってから最終出力する。
 ---
 
@@ -10,7 +10,7 @@ description: ipa-sec-todokede で整理した内容を .ipa-sec-todokede/ 配下
 ## コマンド
 
 ```text
-/ipa-sec-todokede-export
+/export
 ```
 
 ---
