@@ -1,0 +1,50 @@
+{
+  "target_type": "web_application",
+  "site_url": "https://example.com/",
+  "confirmed_at": "2026-04-16",
+  "screen_or_feature": "請求書一覧画面",
+  "summary": "一般ユーザー権限のまま他人の請求書PDFへアクセスできた",
+  "steps_to_reproduce": [
+    "一般ユーザーでログインする",
+    "請求書一覧画面を開く",
+    "他ユーザーの invoice_id を指定して PDF URL にアクセスする"
+  ],
+  "observed_behavior": "他人の請求書PDFが表示された",
+  "affected_users": "全ユーザーの請求書情報",
+  "vuln_type": "その他",
+  "cwe": [
+    "CWE-284",
+    "CWE-200"
+  ],
+  "why_vulnerable": "本来アクセスできない他人の請求書が閲覧できるため",
+  "threats": {
+    "confidentiality": "氏名・住所・請求金額等の漏えい",
+    "integrity": "現時点では未確認",
+    "availability": "現時点では未確認"
+  },
+  "evidence": {
+    "screenshots": [
+      "evidence/screenshots/2026-04-16_invoice.png"
+    ],
+    "logs": [],
+    "poc": [
+      "evidence/poc/repro.sh"
+    ]
+  },
+  "site_contact": "security@example.com",
+  "other_disclosures": [],
+  "cvss": {
+    "vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "base_score": null,
+    "rationale": {
+      "AV": "インターネット経由で到達可能",
+      "AC": "特殊条件なし",
+      "PR": "一般ユーザー権限が必要",
+      "UI": "被害者操作不要",
+      "S": "同一アプリケーション内",
+      "C": "高",
+      "I": "なし",
+      "A": "なし"
+    }
+  }
+}
